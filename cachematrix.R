@@ -1,4 +1,4 @@
-## Creates a "matrix" object that can cache its inverse.
+## Creates a matrix object that can cache its inverse.
 makeCacheMatrix <- function(x = matrix()) {
   n<-NULL
   set<-function(z){
